@@ -1,0 +1,72 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    font-family: var(--font-primary);
+    position: fixed;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255, .9);
+    width: 100%;
+}
+.Logo {
+    height: 60px;
+    width: 150px;
+}
+
+.Navbar a {
+    text-decoration: none;
+    margin: 0 30px;
+    opacity: .99;
+    color: var(--color-quaternary);
+    font-size: 17px;
+
+}
+
+.Navbar a:hover {
+    opacity: 1;
+    color: black;
+}
+
+button {
+    padding: 1.2rem;
+    margin-right: 20px;
+    background-color: var(--color-primary);
+    color: var(--color-ternary);
+    border: 2px solid var(--color-primary);
+    border-radius: 1rem;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--color-secondary);
+    border: 2px solid var(--color-font);
+    transition: 200ms;
+}
+
+.CenterBtn {
+    background-color: var(--color-ternary);
+    
+    color: var(--color-primary);
+}
+
+.lista {
+    position: absolute;
+    top: 70;
+}
+
+@media screen and (max-width: 1040px) {
+    .Navbar {
+        display: flex;
+        justify-content: space-between ;
+        padding: 1rem 2rem;
+    }
+
+    .Logo {
+        height: 40px;
+        width: 110px;
+    }
+
+}

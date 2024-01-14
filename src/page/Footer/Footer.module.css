@@ -1,0 +1,85 @@
+.Advertising{
+    background: var(--color-secondary);
+    height: 50px;
+    width: 100%;
+}
+
+.MainMore {
+    width: 100%;
+    justify-content: center;
+}
+
+.More {
+    display: flex;
+    justify-content: center;
+    column-count: 6;
+    width: 100%;
+    font-family: var(--font-primary);
+    font-size: 14px;
+    margin-top: 4rem;
+}
+
+.Moredetail {
+    display: inline;
+    padding: 0 2rem; 
+     
+}
+
+.Moredetail h3 {
+    padding: 20px 5px;
+    color: var(--color-font);
+    font-size: bold;
+    font-size: 20px;
+}
+
+.Moredetail a {
+    display: flex;
+    column-count: 1;
+    padding: 5px;
+    text-decoration: none;
+    color: var(--color-quaternary);
+}
+
+.Moredetail a:hover {
+    text-decoration: underline;
+    transition: 200ms;
+}
+
+.Moredetail img {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+
+.Logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Logo img {
+    height: 100px;
+    width: 250px;
+    margin: 5rem;
+}
+
+@media screen and (max-width: 800px) {
+    .More {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Moredetail h3, a {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    
+}
